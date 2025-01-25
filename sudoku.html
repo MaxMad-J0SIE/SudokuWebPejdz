@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUDOKU</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="kontener-grid-div">
+        <header class="item-header">
+            
+        </header>
+    
+        <nav class="item-nav kontener-nav">
+            <div class="item-nav-div-1">
+
+            </div>
+            <div class="item-nav-div-2 kontener-nav-div-2">
+                <div class="item-nav-div-2-1 kontener-nav-div-2-1">
+                    <div class="item-nav-div-kolor-1 kolor-green" name="zielony-1"></div>
+                    <div class="item-nav-div-kolor-2 kolor-green" name="zielony-2"></div>
+                    <div class="item-nav-div-kolor-3 kolor-green" name="zielony-3"></div>
+                    <div class="item-nav-div-kolor-4" name="zielony-4"></div>
+                    <div class="item-nav-div-kolor-5" name="zielony-5"></div>
+                    <div class="item-nav-div-kolor-6" name="zielony-6"></div>
+                    <div class="item-nav-div-kolor-7" name="zielony-7"></div>
+                    <div class="item-nav-div-kolor-8" name="zielony-8"></div>
+                    <div class="item-nav-div-kolor-9" name="zielony-9"></div>
+                    <div class="item-nav-div-kolor-10" name="zielony-10"></div>
+                    <div class="item-nav-div-kolor-11" name="zielony-11"></div>
+                    <div class="item-nav-div-kolor-12" name="zielony-12"></div>
+                    <div class="item-nav-div-kolor-13" name="zielony-13"></div>
+                    <div class="item-nav-div-kolor-14" name="zielony-14"></div>
+                    <div class="item-nav-div-kolor-15" name="zielony-15"></div>
+                    <div class="item-nav-div-kolor-16" name="zielony-16"></div>
+                    <div class="item-nav-div-kolor-17" name="zielony-17"></div>
+                    <div class="item-nav-div-kolor-18" name="zielony-18"></div>
+                    <div class="item-nav-div-kolor-19" name="zielony-19"></div>
+                    <div class="item-nav-div-kolor-20" name="zielony-20"></div>
+                    <div class="item-nav-div-kolor-21" name="zielony-21"></div>
+                    <div class="item-nav-div-kolor-22" name="zielony-22"></div>
+                    <div class="item-nav-div-kolor-23" name="zielony-23"></div>
+                    <div class="item-nav-div-kolor-24" name="zielony-24"></div>
+                    <div class="item-nav-div-kolor-25" name="zielony-25"></div>
+                    <div class="item-nav-div-kolor-26" name="zielony-26"></div>
+                    <div class="item-nav-div-kolor-27" name="zielony-27"></div>
+                </div>
+                <div class="item item-nav-div-2-2 kontener-nav-div-2-2">
+                    <div class="item-nav-div-kolor-1 kolor-yellow" name="zolty-1"></div>
+                    <div class="item-nav-div-kolor-2 kolor-yellow" name="zolty-2"></div>
+                    <div class="item-nav-div-kolor-3 kolor-yellow" name="zolty-3"></div>
+                    <div class="item-nav-div-kolor-4" name="zolty-4"></div>
+                    <div class="item-nav-div-kolor-5" name="zolty-5"></div>
+                    <div class="item-nav-div-kolor-6" name="zolty-6"></div>
+                    <div class="item-nav-div-kolor-7" name="zolty-7"></div>
+                    <div class="item-nav-div-kolor-8" name="zolty-8"></div>
+                    <div class="item-nav-div-kolor-9" name="zolty-9"></div>
+                    <div class="item-nav-div-kolor-10" name="zolty-10"></div>
+                    <div class="item-nav-div-kolor-11" name="zolty-11"></div>
+                    <div class="item-nav-div-kolor-12" name="zolty-12"></div>
+                    <div class="item-nav-div-kolor-13" name="zolty-13"></div>
+                    <div class="item-nav-div-kolor-14" name="zolty-14"></div>
+                    <div class="item-nav-div-kolor-15" name="zolty-15"></div>
+                    <div class="item-nav-div-kolor-16" name="zolty-16"></div>
+                    <div class="item-nav-div-kolor-17" name="zolty-17"></div>
+                    <div class="item-nav-div-kolor-18" name="zolty-18"></div>
+                    <div class="item-nav-div-kolor-19" name="zolty-19"></div>
+                    <div class="item-nav-div-kolor-20" name="zolty-20"></div>
+                    <div class="item-nav-div-kolor-21" name="zolty-21"></div>
+                    <div class="item-nav-div-kolor-22" name="zolty-22"></div>
+                    <div class="item-nav-div-kolor-23" name="zolty-23"></div>
+                    <div class="item-nav-div-kolor-24" name="zolty-24"></div>
+                    <div class="item-nav-div-kolor-25" name="zolty-25"></div>
+                    <div class="item-nav-div-kolor-26" name="zolty-26"></div>
+                    <div class="item-nav-div-kolor-27" name="zolty-27"></div>
+                </div>
+                <div class="item-nav-div-2-3 kontener-nav-div-2-3">
+                    <div class="item-nav-div-kolor-1 kolor-red" name="czerwony-1"></div>
+                    <div class="item-nav-div-kolor-2 kolor-red" name="czerwony-2"></div>
+                    <div class="item-nav-div-kolor-3 kolor-red" name="czerwony-3"></div>
+                    <div class="item-nav-div-kolor-4" name="czerwony-4"></div>
+                    <div class="item-nav-div-kolor-5" name="czerwony-5"></div>
+                    <div class="item-nav-div-kolor-6" name="czerwony-6"></div>
+                    <div class="item-nav-div-kolor-7" name="czerwony-7"></div>
+                    <div class="item-nav-div-kolor-8" name="czerwony-8"></div>
+                    <div class="item-nav-div-kolor-9" name="czerwony-9"></div>
+                    <div class="item-nav-div-kolor-10" name="czerwony-10"></div>
+                    <div class="item-nav-div-kolor-11" name="czerwony-11"></div>
+                    <div class="item-nav-div-kolor-12" name="czerwony-12"></div>
+                    <div class="item-nav-div-kolor-13" name="czerwony-13"></div>
+                    <div class="item-nav-div-kolor-14" name="czerwony-14"></div>
+                    <div class="item-nav-div-kolor-15" name="czerwony-15"></div>
+                    <div class="item-nav-div-kolor-16" name="czerwony-16"></div>
+                    <div class="item-nav-div-kolor-17" name="czerwony-17"></div>
+                    <div class="item-nav-div-kolor-18" name="czerwony-18"></div>
+                    <div class="item-nav-div-kolor-19" name="czerwony-19"></div>
+                    <div class="item-nav-div-kolor-20" name="czerwony-20"></div>
+                    <div class="item-nav-div-kolor-21" name="czerwony-21"></div>
+                    <div class="item-nav-div-kolor-22" name="czerwony-22"></div>
+                    <div class="item-nav-div-kolor-23" name="czerwony-23"></div>
+                    <div class="item-nav-div-kolor-24" name="czerwony-24"></div>
+                    <div class="item-nav-div-kolor-25" name="czerwony-25"></div>
+                    <div class="item-nav-div-kolor-26" name="czerwony-26"></div>
+                    <div class="item-nav-div-kolor-27" name="czerwony-27"></div>
+                </div>
+            </div>
+            <div class="item-nav-div-3 kontener-nav-div-3">
+                <div class="item-nav-div-3-1">
+                    <input type="button" value="start" name="start" class="item-div-przycisk">
+                </div>
+                <div class="item-nav-div-3-2">
+                    <input type="button" value="reset" name="reset" class="item-div-przycisk">
+                </div>
+            </div>
+        </nav>
+    
+        <main class="kontener-grid-main item-main" name="main">
+            <section class="kontener-grid-main-sekcja-1" class="item-sekcja-1" name="sekcja-1">
+                <div class="item-div-1" name="sekcja-1-div-1">
+                    
+                </div>
+                <div class="item-div-2" name="sekcja-1-div-2">
+                    
+                </div>
+                <div class="item-div-3" name="sekcja-1-div-3">
+                    
+                </div>
+                <div class="item-div-4" name="sekcja-1-div-4">
+                    
+                </div>
+                <div class="item-div-5" name="sekcja-1-div-5">
+                    
+                </div>
+                <div class="item-div-6" name="sekcja-1-div-6">
+                    
+                </div>
+                <div class="item-div-7" name="sekcja-1-div-7">
+                    
+                </div>
+                <div class="item-div-8" name="sekcja-1-div-8">
+                   
+                </div>
+                <div class="item-div-9" name="sekcja-1-div-9">
+                   
+                </div>
+            </section>
+            <section class="kontener-grid-main-sekcja-2" class="item-sekcja-2" name="sekcja-2">
+                <div class="item-div-1" name="sekcja-2-div-1">
+                    
+                </div>
+                <div class="item-div-2" name="sekcja-2-div-2">
+                    
+                </div>
+                <div class="item-div-3" name="sekcja-2-div-3">
+                    
+                </div>
+                <div class="item-div-4" name="sekcja-2-div-4">
+                    
+                </div>
+                <div class="item-div-5" name="sekcja-2-div-5">
+                    
+                </div>
+                <div class="item-div-6" name="sekcja-2-div-6">
+                    
+                </div>
+                <div class="item-div-7" name="sekcja-2-div-7">
+    
+                </div>
+                <div class="item-div-8" name="sekcja-2-div-8">
+                    
+                </div>
+                <div class="item-div-9" name="sekcja-2-div-9">
+                    
+                </div>
+            </section>
+            <section class="kontener-grid-main-sekcja-3" class="item-sekcja-3" name="sekcja-3">
+                <div class="item-div-1" name="sekcja-3-div-1">
+                    
+                </div>
+                <div class="item-div-2" name="sekcja-3-div-2">
+                    
+                </div>
+                <div class="item-div-3" name="sekcja-3-div-3">
+                    
+                </div>
+                <div class="item-div-4" name="sekcja-3-div-4">
+                    
+                </div>
+                <div class="item-div-5" name="sekcja-3-div-5">
+                    
+                </div>
+                <div class="item-div-6" name="sekcja-3-div-6">
+                    
+                </div>
+                <div class="item-div-7" name="sekcja-3-div-7">
+                    
+                </div>
+                <div class="item-div-8" name="sekcja-3-div-8">
+                   
+                </div>
+                <div class="item-div-9" name="sekcja-3-div-9">
+                   
+                </div>
+            </section>
+            <section class="kontener-grid-main-sekcja-4" class="item-sekcja-4" name="sekcja-4">
+                <div class="item-div-1" name="sekcja-4-div-1">
+                    
+                </div>
+                <div class="item-div-2" name="sekcja-4-div-2">
+                    
+                </div>
+                <div class="item-div-3" name="sekcja-4-div-3">
+                    
+                </div>
+                <div class="item-div-4" name="sekcja-4-div-4">
+                
+                </div>
+                <div class="item-div-5" name="sekcja-4-div-5">
+                    
+                </div>
+                <div class="item-div-6" name="sekcja-4-div-6">
+                    
+                </div>
+                <div class="item-div-7" name="sekcja-4-div-7">
+                    
+                </div>
+                <div class="item-div-8" name="sekcja-4-div-8">
+                   
+                </div>
+                <div class="item-div-9" name="sekcja-4-div-9">
+                   
+                </div>
+            </section>
+            <section class="kontener-grid-main-sekcja-5" class="item-sekcja-5" name="sekcja-5">
+                <div class="item-div-1" name="sekcja-5-div-1">
+                    
+                </div>
+                <div class="item-div-2" name="sekcja-5-div-2">
+                    
+                </div>
+                <div class="item-div-3" name="sekcja-5-div-3">
+                    
+                </div>
+                <div class="item-div-4" name="sekcja-5-div-4">
+                    
+                </div>
+                <div class="item-div-5" name="sekcja-5-div-5">
+                    
+                </diV>
+                <div class="item-div-6" name="sekcja-5-div-6">
+                    
+                </div>
+                <div class="item-div-7" name="sekcja-5-div-7">
+                    
+                </div>
+                <div class="item-div-8" name="sekcja-5-div-8">
+                   
+                </div>
+                <div class="item-div-9" name="sekcja-5-div-9">
+                   
+                </div>
+            </section>
+            <section class="kontener-grid-main-sekcja-6" class="item-sekcja-6" name="sekcja-6">
+                <div class="item-div-6-1" name="sekcja-6-div-1">
+                    
+                </div>
+                <div class="item-div-2" name="sekcja-6-div-2">
+                    
+                </div>
+                <div class="item-div-3" name="sekcja-6-div-3">
+                    
+                </div>
+                <div class="item-div-4" name="sekcja-6-div-4">
+                    
+                </div>
+                <div class="item-div-5" name="sekcja-6-div-5">
+                    
+                </div>
+                <div class="item-div-6" name="sekcja-6-div-6">
+                    
+                </div>
+                <div class="item-div-7" name="sekcja-6-div-7">
+                    
+                </div>
+                <div class="item-div-8" name="sekcja-6-div-8">
+                   
+                </div>
+                <div class="item-div-9" name="sekcja-6-div-9">
+                   
+                </div>
+            </section>
+            <section class="kontener-grid-main-sekcja-7" class="item-sekcja-7" name="sekcja-7">
+                <div class="item-div-1" name="sekcja-7-div-1">
+                    
+                </div>
+                <div class="item-div-2" name="sekcja-7-div-2">
+                    
+                </div>
+                <div class="item-div-3" name="sekcja-7-div-3">
+                    
+                </div>
+                <div class="item-div-4" name="sekcja-7-div-4">
+                    
+                </div>
+                <div class="item-div-5" name="sekcja-7-div-5">
+                    
+                </div>
+                <div class="item-div-6" name="sekcja-7-div-6">
+                    
+                </div>
+                <div class="item-div-7" name="sekcja-7-div-7">
+                    
+                </div>
+                <div class="item-div-8" name="sekcja-7-div-8">
+                   
+                </div>
+                <div class="item-div-9" name="sekcja-7-div-9">
+                   
+                </div>
+            </section>
+            <section class="kontener-grid-main-sekcja-8" class="item-sekcja-8" name="sekcja-8">
+                <div class="item-div-1" name="sekcja-8-div-1">
+                    
+                </div>
+                <div class="item-div-2" name="sekcja-8-div-2">
+                    
+                </div>
+                <div class="item-div-3" name="sekcja-8-div-3">
+                    
+                </div>
+                <div class="item-div-4" name="sekcja-8-div-4">
+                    
+                </div>
+                <div class="item-div-5" name="sekcja-8-div-5">
+                    
+                </div>
+                <div class="item-div-6" name="sekcja-8-div-6">
+                    
+                </div>
+                <div class="item-div-7" name="sekcja-8-div-7">
+                    
+                </div>
+                <div class="item-div-8" name="sekcja-8-div-8">
+                   
+                </div>
+                <div class="item-div-9" name="sekcja-8-div-9">
+                   
+                </div>
+            </section>
+            <section class="kontener-grid-main-sekcja-9" class="item-sekcja-9" name="sekcja-9">
+                <div class="item-div-1" name="sekcja-9-div-1">
+                    
+                </div>
+                <div class="item-div-2" name="sekcja-9-div-2">
+                    
+                </div>
+                <div class="item-div-3" name="sekcja-9-div-3">
+                    
+                </div>
+                <div class="item-div-4" name="sekcja-9-div-4">
+                    
+                </div>
+                <div class="item-div-5" name="sekcja-9-div-5">
+                    
+                </div>
+                <div class="item-div-6" name="sekcja-9-div-6">
+                    
+                </div>
+                <div class="item-div-7" name="sekcja-9-div-7">
+                    
+                </div>
+                <div class="item-div-8" name="sekcja-9-div-8">
+                   
+                </div>
+                <div class="item-div-9" name="sekcja-9-div-9">
+                   
+                </div>
+            </section>
+        </main>
+    
+        <aside class="item-aside kontener-aside" name="aside">
+            <div class="item-aside-div-1 kontener-aside-div-1" name="aside-div-1">
+                <div class="item-aside-div-1-1" name="aside-div-1-1">
+                    
+                </div>
+                <div class="item-aside-div-1-2" name="aside-div-1-2">
+
+                </div>
+                <div class="item-aside-div-1-3" name="aside-div-1-3">
+
+                </div>
+                <div class="item-aside-div-1-4" name="aside-div-1-4">
+
+                </div>
+                <div class="item-aside-div-1-5" name="aside-div-1-5">
+
+                </div>
+                <div class="item-aside-div-1-6" name="aside-div-1-6">
+
+                </div>
+                <div class="item-aside-div-1-7" name="aside-div-1-7">
+
+                </div>
+                <div class="item-aside-div-1-8" name="aside-div-1-8">
+
+                </div>
+                <div class="item-aside-div-1-9" name="aside-div-1-9">
+
+                </div>
+
+            </div>
+
+            <div class="item-aside-div-2" name="aside-div-2">
+                <input type="button" value="notuj" name="zmiana" class="zmiana">
+            </div>
+
+            <div class="item-aside-div-3 kontener-aside-div-3">
+                <div class="item-aside-div-3-1">
+                    <input type="button" value="beginer" name="beginer" class="item-div-przycisk">
+                </div>
+                <div class="item-aside-div-3-2">
+                    <input type="button" value="medium" name="medium" class="item-div-przycisk">
+                </div>
+                <div class="item-aside-div-3-3">
+                    <input type="button" value="expert" name="expert" class="item-div-przycisk">
+                </div>
+            </div>
+        </aside>
+        <footer class="item-footer kontener-footer">
+            <section class="item-footer-sekcja-1 kontener-footer-sekcja">
+                <div class="item-footer-sekcja-div-1">
+
+                </div>
+                <div class="item-footer-sekcja-div-2">
+
+                </div>
+                <div class="item-footer-sekcja-div-3">
+
+                </div>
+            </section>
+            <section class="item-footer-sekcja-2 kontener-footer-sekcja">
+                <div class="item-footer-sekcja-div-1">
+
+                </div>
+                <div class="item-footer-sekcja-div-2">
+
+                </div>
+                <div class="item-footer-sekcja-div-3">
+
+                </div>
+            </section>
+            <section class="item-footer-sekcja-3 kontener-footer-sekcja">
+                <div class="item-footer-sekcja-div-1">
+
+                </div>
+                <div class="item-footer-sekcja-div-2">
+
+                </div>
+                <div class="item-footer-sekcja-div-3">
+
+                </div>
+            </section>
+        </footer>
+    </div>
+</body>
+</html>
